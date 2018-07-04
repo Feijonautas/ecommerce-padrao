@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+}
+.link-padrao{
+    text-decoration: none;
+    color: #5583fe;
+    padding: 0px 1px 1px 1px;
+    margin: 0px 4px 0px 4px;
+    border-bottom: 1px solid transparent;
+    font-size: 12px;
+    font-weight: normal;
+    display: inline-block;
+}
+.link-padrao:hover{
+    border-bottom: 1px solid #5583fe;
+}
+.titulo-principal{
+    color: #00be36;
+    font-size: 36px;
+}
+@media screen and (max-width: 720px){
+    .titulo-principal{
+        font-size: 24px;
+    }
+
+}
+.navigation-tree{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 20px;
+    color: #666;
+}
+.navigation-tree a{
+    text-decoration: none;
+    color: #666;
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+}
+.navigation-tree a:hover{
+    text-decoration: underline;
+}
+.navigation-tree .icon{
+    margin-right: 10px;
+}
+input[type=number]::-webkit-inner-spin-button, input[type=date]::-webkit-inner-spin-button{ 
+    -webkit-appearance: none;
+    cursor:pointer;
+    display:block;
+    width:8px;
+    color: #333;
+    text-align:center;
+    position:relative;
+}
+input[type=number],input[type=date]{ 
+    -moz-appearance: textfield;
+    appearance: textfield;
+    margin: 0; 
+}
+button{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}
+@media screen and (max-width: 1100px){
+    .navigation-tree{
+        width: 95%;
+    }
+}
+/*FORMS STYLES*/
+.xsmall{
+    width: calc((100%/6) - 30.23px);
+    margin: 5px 15px 5px 15px;
+    float: left;
+}
+.small{
+    width: calc((100%/4) - 30px);
+    margin: 5px 15px 5px 15px;
+    float: left;
+}
+.medium{
+    width: calc((100%/3) - 30px);
+    margin: 5px 15px 5px 15px;
+    float: left;
+}
+.half{
+    width: calc((100%/2) - 30px);
+    margin: 5px 15px 5px 15px;
+    float: left;
+}
+.large{
+    width: calc((100%/1.5) - 30px);
+    margin: 5px 15px 5px 15px;
+    float: left;
+}
+.xlarge{
+    width: calc((100%/1.335) - 30px);
+    margin: 5px 15px 5px 15px;
+    float: left;
+}
+.full{
+    width: calc(100% - 30px);
+    margin: 5px 15px 5px 15px;
+}
+.label{
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.group{
+    width: 100%;
+    clear: both;
+}
+.clear{
+    clear: both;
+}
+.input-standard{
+    width: calc(100% - 10px);
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    padding: 0px 5px 0px 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: .3s;
+}
+.input-title{
+    font-size: 14px;
+    margin: 0px;
+    text-align: left;
+    color: #666;
+}
+.input-nochange{
+    background-color: #f3f3f3;
+    pointer-events: none;
+}
+.group{
+    width: 100%;
+    clear: both;
+}
+.clear{
+    clear: both;
+}
+.warning{
+    padding: 10px;
+    font-size: 14px;
+    background-color: #eff889;
+    line-height: 25px;
+    border-radius: 5px;
+    color: #555;
+}
+.warning .link-padrao{
+    font-size: 14px;
+    line-height: 14px;
+    color: #111;
+    cursor: pointer;
+}
+.warning .link-padrao:hover{
+    border-color: #111;   
+}
+/*END FORM STYLES*/
